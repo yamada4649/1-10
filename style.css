@@ -50,13 +50,14 @@ main {
 	padding: 3px;
 
 }
-h3 {
+.title {
 	margin: 15px 0 5px;
 }
 @media screen and (max-width: 768px) {
 	main {
 		padding: 50px;
 		width: 100%;
+
     }
 	.main-box {
 
@@ -65,21 +66,29 @@ h3 {
 		width: 90%;
 
 
+
+    }
+    .main-box:nth-child(1) {
+     margin-right: 0;
+    }
+    .main-box:nth-child(2) {
+      margin-right: 0;
     }
 	.photo1 {
+		height: 230px;
 		width: 100%;
 
 	}
 	.photo2 {
-
+        height: 230px;
 		width: 100%;
 
 	}
 	.photo3 {
-
+        height: 230px;
 		width: 100%;
 
 	}
-	.title-text {
-	}
+
+
 }
