@@ -55,7 +55,6 @@ main {
 }
 @media screen and (max-width: 768px) {
 	main {
-		padding: 50px;
 		width: 100%;
 
     }
@@ -75,17 +74,19 @@ main {
 
 	.photo1 {
 		height: 220px;
+
 		width: 100%;
 
 	}
 	.photo2 {
-	    height: 220px;
+		height: 220px;
 
 		width: 100%;
 
 	}
 	.photo3 {
 		height: 220px;
+
 		width: 100%;
 
 	}
